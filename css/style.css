@@ -400,7 +400,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 
-/* FUTTER */
+/* FOOTER */
 
 .line{
     box-sizing: border-box;
@@ -413,7 +413,7 @@ h1, h2, h3, h4, h5, h6 {
     left: 0px;
 } 
 
-.futter::before {
+.footer::before {
     content: "";
     display: flex;
     width: 100vw;
@@ -421,7 +421,7 @@ h1, h2, h3, h4, h5, h6 {
     margin: 16px 0px 0px ;
 }
 
-.futter_inside {
+.footer_inside {
     margin: 60px auto;
     max-width: 1168px;
     display: flex;
@@ -431,11 +431,11 @@ h1, h2, h3, h4, h5, h6 {
     gap: 20px;
 }
 
-.futter_plantku {
+.footer_plantku {
     max-width: 282px;
 }
 
-.futter_plantku_h {
+.footer_plantku_h {
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 500;
@@ -459,7 +459,7 @@ h1, h2, h3, h4, h5, h6 {
     color: #333333;
 }
 
-.futter_plantku_adress {
+.footer_plantku_adress {
     max-width: 282px;
     height: 60px;
     
@@ -496,7 +496,7 @@ h1, h2, h3, h4, h5, h6 {
     color: #000000;
 }
 
-.futter_link {
+.footer_link {
     font-family: 'Work Sans', sans-serif;
     font-style: normal;
     font-weight: 400;
